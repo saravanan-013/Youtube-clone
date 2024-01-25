@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            .thb1{
+                width:100%;
+               
+            }
+            .t{
+                font-weight:bold;
+                font-family: arial;
+                font-size: 15px;
+                width:290px;
+                
+            }
+            .m{
+                color:gray;
+                margin-top:0px;
+                margin-bottom:4px;
+            }
+            .n{
+                color:gray;
+                margin-top:0px;
+            }
+           .profile-pic{
+            width:50px;
+            border-radius:25px ;
+            margin-top: 12px;
+           }
+        .video-info{
+           
+            margin-left:10px;
+        }
+        .vi{
+            display:grid;
+            grid-template-columns: 50px 1fr;
+           
+        
+        }
+        .ov{
+         
+             display:inline-block;
+             
+            margin-right:10px;
+
+        }
+
+       
+      .grdmod{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-left: 70px;
+        margin-top: 20px;
+        margin-bottom: 500px;
+       
+        
+      }
+
+      
+
+        .left{
+
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+   
+            width:180px;
+        }
+           
+            
+        
+      
+        .mid{
+            
+            height:35px;
+            display:flex;
+            flex:1;
+            align-items: center;
+          
+        }
+        .midd{
+            display:flex;
+            flex:1;
+            align-items: center;
+            margin-top: 10px;
+         
+        }
+
+
+        .right{
+         display:flex;
+         align-items: center;
+         justify-content: space-between;
+         width:180px;margin-top: 12px;
+        
+        }
+
+        .header{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+           position: fixed;
+           top:0px;
+           left:0px;
+           right:0px;
+           background-color: white;
+           padding-bottom: 20px;
+           
+           
+
+        }
+       .box{
+        height:37px;
+        width:350px;
+        margin-left:300px;
+        font-size: 20px;
+        border-radius: 3px;
+        border-color: rgb(188, 180, 180);
+       }
+
+        .hamber{
+            height:20px;
+            margin-top: 10px;
+            margin-left:25px;
+        }
+        .logo{
+            height:20px;
+            margin-left:38px;
+            margin-top: 10px;
+            ;
+        }
+
+        .sear{
+            height:42px;
+            width:60px;
+            
+        }
+        .search{
+            height: 20px;
+            
+        }
+      
+        .voi{
+            height:45px;
+            width:40px;
+            border-radius: 30px;
+            border:none;
+            margin-left:7px;
+            padding-top: 4px;
+            background-color:rgb(231, 231, 231);
+        }
+        
+   
+    
+       .upload{
+        height:28px;
+       }
+       .ann{
+        height:28px;
+       }
+       .notify{
+        height:28px;
+       }
+       .mychan{
+        height:28px;
+       }
+
+        .sdbar{
+            position: fixed;
+            left:0px;
+            bottom:0px;
+            top:55px;
+            
+            width:72px;
+
+        }
+
+
+       
+       .sidebarlink img{
+        height:30px;
+       }
+       .sidebarlink{
+        height:60px;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        font-size: 13px;
+        align-items: center;
+        margin-top:25px;
+       }
+
+.zz{
+    padding-top:50px;
+}
+
+     
+        </style>
+    </head>
+    <body class="zz">
+
+    
+    <div class="header">  
+        <div class="left">
+            
+            <img class="hamber"src="icons/hamburger-menu.svg">
+            <img class="logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="midd"> 
+             <div class="mid">
+            <input class="box" type="text" placeholder="search">
+            <button class="sear">
+              <img class="search"src="icons/search.svg">
+            </button>
+            <button  class="voi">
+             <img  class="voice"src="icons/voice-search-icon.svg">
+            </button>
+           </div>
+        </div>
+     
+       
+        <div class="right">
+
+            <img  class="upload"src="icons/upload.svg">
+            <img class="ann"src="icons/youtube-apps.svg">
+            <img class="notify"src="icons/notifications.svg">
+            <img  class="mychan"src="icons/my-channel.jpeg">
+            </div>
+
+       </div>
+    </div>  
+
+    
+    <div class="sdbar">
+    <div class="sidebarlink">
+        <img src="lfticon/home.svg"><div>Home</div>
+    </div>
+    <div class="sidebarlink">
+        <img src="lfticon/explore.svg"><div>Explore</div>
+    </div>
+    <div class="sidebarlink">
+        <img src="lfticon/subscriptions.svg"><div>Subscription</div>
+    </div>
+    <div class="sidebarlink">
+        <img src="lfticon/originals.svg"><div>Originals</div>
+    </div>
+    <div class="sidebarlink">
+        <img src="lfticon/youtube-music.svg"><div>Music</div>
+    </div>
+    <div class="sidebarlink">
+        <img src="lfticon/library.svg"><div>Library</div>
+    </div>
+
+</div>
+
+
+
+
+
+
+           <div class="grdmod">
+
+            <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-1.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-1.jpeg" >
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+            
+                </div>
+               </div>
+    
+             
+             
+             
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-2.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-2.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-3.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-3.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               </div>
+    
+             
+             
+             
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-4.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-4.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               
+             </div>
+
+
+
+
+
+
+             
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-5.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-5.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               </div>
+    
+             
+             
+             
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-6.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-6.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               
+             </div>
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-7.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-7.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               </div>
+    
+             
+             
+             
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-8.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-8.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               
+             </div>
+
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-9.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-9.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               </div>
+    
+             
+             
+             
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-10.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-10.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               
+             </div>
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-11.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-11.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               </div>
+    
+             
+             
+             
+
+
+             <div class="ov">
+    
+                <img class="thb1" src = "proimg/thumbnail-12.webp">
+                <div class="vi">
+                    <img class="profile-pic" src="smalimg/channel-12.jpeg">
+                 <div class="video-info">
+                  <P class="t">Talking Tech and AI wih Googke CEO Sundar Pichai!</P> 
+                  <p class="m">Marques Brownlee</p>
+                  <p class="n">3.4M views.6 months ago</p></div>
+             
+                </div>
+               
+             </div>
+
+
+
+
+
+           </div>
+
+
+        
+               
+
+
+
+
+
+            </body>
+
+</html>
